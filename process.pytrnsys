@@ -1,0 +1,10 @@
+import sys
+
+from process import main
+
+
+prt_file_path = ".\tests\data\input\Outputs.Prt"
+output_pdf_file_path = "Output.pdf"
+
+sys.argv = ["python", "process.py", prt_file_path, output_pdf_file_path]
+main()
